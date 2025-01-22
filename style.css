@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&family=Black+Ops+One&family=Bokor&family=Cinzel:wght@400..900&family=Concert+One&family=Creepster&family=DM+Serif+Text:ital@0;1&family=Domine:wght@400..700&family=Eater&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ga+Maamli&family=Homemade+Apple&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Macondo&family=Roboto+Slab:wght@100..900&family=Rowdies:wght@300;400;700&family=Rubik+Mono+One&family=Rubik+Vinyl&display=swap');
+
+body{
+    font-family: "Fira Sans Condensed", serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    text-align: center;
+    background-color: pink;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 3%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.card input,button{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Fira Sans Condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5%;
+    /* margin-bottom: 5% */
+}
+
+button{
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: ease 0.5s;
+}
+
+.weather-info{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+input:focus{
+    outline: 2px solid #4caf50;
+    outline-offset: 4px;
+}
+
+#wind ,#humidity{
+    color: rgb(197, 14, 14);
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+/* .weather{
+    display: none
+} */
